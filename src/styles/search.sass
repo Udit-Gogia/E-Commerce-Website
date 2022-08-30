@@ -1,0 +1,68 @@
+@font-face
+	font-family: 'head-medium'
+	src: url('../assets/Font/head-medium.woff') format('woff')
+	
+.div-overall-searchbar
+	margin-top: -2rem
+	position: absolute
+	margin-left: 15rem
+	color: white
+	display: flex
+	font-family: 'head-medium'
+	height: 4rem
+
+.search-textarea	
+	padding: 1.11rem 1rem
+	border:  solid #000
+	width: 50vw
+	border-radius: 50px 0 0 50px
+	border-width: 0.3rem 0 0.3rem 0.3rem 
+	font-size: 1rem
+
+	&:focus
+		outline: none
+
+
+.button-seach
+	font-weight: 500
+	cursor: pointer
+	padding: 1rem
+	width: 10rem
+	position: relative
+	text-decoration: none
+	text-transform: uppercase
+	background-color: #000
+	color: #fff
+	border-radius: 0 50px 50px 0
+	border-width: 0.3rem 0.3rem 0.3rem 0
+	font-size: 1rem
+	transition: all 0.5s linear
+
+	svg
+		height: 3rem
+		left: 0
+		position: absolute
+		top: -0.1rem
+		width: 100%
+
+	rect
+		fill: none
+		stroke: #000
+		stroke-width: 3
+		stroke-dasharray: 422, 0
+		transition: all 0.1s linear
+		
+
+.button-seach:hover
+	background: #fff
+	color: #000
+	font-weight: 500
+	letter-spacing: 1
+
+	rect
+		stroke-width: 3
+		stroke-dasharray: 100, 320
+		stroke-dashoffset: 50
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1)
+			
+

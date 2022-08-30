@@ -1,12 +1,12 @@
 import React from 'react'
 import '../styles/navbar.sass'
-import logo from '../images/logo.png'
+import logo from '../assets/images/logo.png'
 // import search from '../images/icon-search.png'
-import cart from '../images/icon-cart.png'
-import user from '../images/icon-user.png'
-import clothing from "../images/icon-fashion.png"
-import grocery from "../images/icon-grocery.png"
-import mobile from "../images/icon-electronics.png"
+import cart from '../assets/images/icon-cart.png'
+import user from '../assets/images/icon-user.png'
+import clothing from "../assets/images/icon-fashion.png"
+import grocery from "../assets/images/icon-grocery.png"
+import mobile from "../assets/images/icon-electronics.png"
 // import Auth from "../pages/auth"
 // import {BrowserRouter as Router, Link}  from 'react-router-dom';
 
@@ -21,15 +21,15 @@ export default function Navbar() {
 
 	<div className="div-nav-menu">
 		<div className="div-nav-button">
-		<img src={clothing} alt="icon-clothing" width="30"></img>
-		<p className="nav-menu-button">Clothing</p>
+		<img src={clothing} alt="icon-clothing" width="25"></img>
+		<p className="nav-menu-button">Fashion</p>
 		</div>
 		<div className="div-nav-button">
-		<img src={grocery} alt="icon-clothing" width="30"></img>
+		<img src={grocery} alt="icon-clothing" width="25"></img>
 		<p className="nav-menu-button">Grocery</p>
 		</div>
 		<div className="div-nav-button">
-		<img src={mobile} alt="icon-clothing" width="30"></img>
+		<img src={mobile} alt="icon-clothing" width="25"></img>
 		<p className="nav-menu-button">Mobile</p>
 		</div>
 		

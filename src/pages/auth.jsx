@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/auth.sass"
-import lottie from '../images/lottie-auth.gif'
+import lottie from '../assets/images/lottie-auth.gif'
 
 export default function auth() {
 	return(

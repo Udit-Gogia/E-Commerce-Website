@@ -2,11 +2,10 @@ import React from 'react'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from "../comps/Navbar"
 import '../styles/carousel.sass'
-import tech from "../videos/Tech.mp4"
-import Groceries from "../videos/Groceries.mp4"
-import Clothing from "../videos/Clothing.mp4"
+import tech from "../assets/videos/Tech.mp4"
+import Groceries from "../assets/videos/Groceries.mp4"
+import Clothing from "../assets/videos/Clothing.mp4"
 export default function carousel() {
 
   const settings = {
@@ -22,13 +21,16 @@ export default function carousel() {
 	
   return (
 	<>
-	<Navbar />
-	<div className="div-carousel">
+		<div className="div-carousel">
         
         <Slider {...settings}>
 
+
           <div className="one car">
+
             
+
+
           <video autoPlay muted loop className='video-tech' >
             <source src={tech} type="video/mp4" />
           </video>
@@ -53,7 +55,7 @@ export default function carousel() {
           </video>
 
           <div className="text-box">
-            <h1 className="clothing-title">CLOTHING</h1>
+            <h1 className="clothing-title">FASHION</h1>
           </div>
           </div>
           

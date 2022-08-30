@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Carousel from "./pages/carousel"
+import Navbar from "./comps/Navbar"
+import Carousel from "./comps/carousel"
+import Seach from "./comps/search"
 // import Auth from './pages/auth'
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Carousel />
+      <Seach />
     </div>
   );
 }
