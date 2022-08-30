@@ -1,11 +1,11 @@
 import React from 'react'
-import '../styles/search.sass'
+import '../styles/search/search.sass'
 export default function search() {
   return (
 	<>
 	<div className="div-overall-searchbar">
 		<div ClassName="div-search-textarea">
-			<input type="text" className="search-textarea" placeholder="Search Products"></input>
+			<input type="text" className="search-textarea" placeholder="Search Products" id="product-search-input"></input>
 		</div>	
 
 		<button type="submit" className="button-seach">

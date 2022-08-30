@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import '../styles/carousel.sass'
+import '../styles/..carousel/carousel.sass'
 import tech from "../assets/videos/Tech.mp4"
 import Groceries from "../assets/videos/Groceries.mp4"
 import Clothing from "../assets/videos/Clothing.mp4"

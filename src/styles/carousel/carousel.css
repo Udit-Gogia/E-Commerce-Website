@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "head-medium";
+  src: url("../assets/Font/head-medium.woff") format("woff");
+}
+.div-carousel {
+  width: 100vw;
+  height: 60vh;
+}
+
+.car {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  background: #000;
+  display: flex;
+}
+.car video {
+  width: 100%;
+}
+
+.text-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 10rem;
+  font-weight: 900;
+  font-family: "head-medium";
+  mix-blend-mode: multiply;
+}
+.tech-title {
+  font-size: 14rem;
+  margin-top: 2rem;
+}
+
+.grocery-title {
+  font-size: 14rem;
+  margin-top: 2rem;
+}
+
+.clothing-title {
+  font-size: 14rem;
+  margin-top: 2rem;
+  letter-spacing: 0.5rem;
+}/*# sourceMappingURL=carousel.css.map */

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Murecho:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.div-overall-nav {
+  background: black;
+  color: white;
+  text-align: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dev-title {
+  font-family: "Murecho";
+}
+
+.logo-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  float: left;
+}
+
+.div-nav-menu {
+  display: flex;
+  font-family: "Murecho";
+  margin-left: 5rem;
+}
+.div-nav-menu .nav-menu-button {
+  margin: 0 1.5rem;
+  font-family: "Murecho";
+  padding: 0.4rem 0;
+  font-size: 1.2rem;
+  background-image: linear-gradient(transparent 0%, transparent 95%, white 70%, white 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 300ms;
+}
+.div-nav-menu .nav-menu-button:hover {
+  cursor: pointer;
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+
+.nav-icon {
+  width: 1.6rem;
+  margin: 0 1rem;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+.div-nav-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=navbar.css.map */

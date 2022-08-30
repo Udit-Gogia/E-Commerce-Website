@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/navbar.sass'
+import '../styles/navbar/navbar.sass'
 import logo from '../assets/images/logo.png'
 // import search from '../images/icon-search.png'
 import cart from '../assets/images/icon-cart.png'
