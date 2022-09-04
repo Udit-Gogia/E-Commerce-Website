@@ -1,7 +1,12 @@
 @font-face {
   font-family: "head-medium";
-  src: url("../assets/Font/head-medium.woff") format("woff");
+  src: url("../../assets/Font/head-medium.woff") format("woff");
 }
+.div-search {
+  display: flex;
+  flex-direction: column;
+}
+
 .div-overall-searchbar {
   margin-top: -2rem;
   position: absolute;

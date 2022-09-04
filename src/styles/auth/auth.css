@@ -5,9 +5,37 @@
   outline: none;
 }
 
+.div-auth-lottie {
+  padding: 2rem 5rem;
+}
+
+.auth-lottie {
+  width: 40vw;
+}
+
+.form-body {
+  width: 24vw;
+}
+
+.div-auth-form {
+  width: 50vw;
+  margin-left: 12rem;
+}
+
 .div-overall-form {
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   border-width: 0 !important;
+}
+
+.form-comp-email {
+  margin: 1rem 0;
+}
+
+.form-comp-pwd {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.form-comp-submit {
+  margin: 0.5rem 0;
 }/*# sourceMappingURL=auth.css.map */

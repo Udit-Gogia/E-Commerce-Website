@@ -1,6 +1,6 @@
 @font-face {
   font-family: "head-medium";
-  src: url("../assets/Font/head-medium.woff") format("woff");
+  src: url("../../assets/Font/head-medium.woff") format("woff");
 }
 .div-carousel {
   width: 100vw;

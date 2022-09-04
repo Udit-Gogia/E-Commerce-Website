@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/navbar/navbar.sass'
+import '../styles/navbar/navbar.css'
 import logo from '../assets/images/logo.png'
 // import search from '../images/icon-search.png'
 import cart from '../assets/images/icon-cart.png'
@@ -30,7 +30,7 @@ export default function Navbar() {
 		</div>
 		<div className="div-nav-button">
 		<img src={mobile} alt="icon-clothing" width="25"></img>
-		<p className="nav-menu-button">Mobile</p>
+		<p className="nav-menu-button">Tech</p>
 		</div>
 		
 	</div>

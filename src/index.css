@@ -2,3 +2,10 @@
 	margin: 0;
 	overflow: hidden!important;
 }
+@font-face {
+	font-family: 'head-medium';
+	src: url('./assets/Font/head-medium.woff') format('woff');
+}
+.head-medium{
+font-family: 'head-medium';
+}
